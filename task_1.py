@@ -49,7 +49,7 @@ print(H.get("apple"))   # Виведе: 10
 print(H.get("orange"))  # Виведе: 20
 print(H.get("banana"))  # Виведе: 30
 
-H.delete("banana")
-
+print(H.delete("banana")) # Виведе: True
 print(H.delete("grape")) # Виведе: False
+
 print(H.get("banana")) # Виведе: None
